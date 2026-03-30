@@ -71,7 +71,7 @@ python app.py
 ## 👩‍💻 Developed By
 
 **Tania Munawar**
-AI Engineering 
+AI Engineering  /
 Deep Learning Enthusiast
 
 ---
