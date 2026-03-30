@@ -1,60 +1,79 @@
-Student Performance Prediction (ANN)
-This project is a web-based application that predicts student performance using an Artificial Neural Network (ANN). It is built with a Python backend and a modern user interface to help educators and students analyze academic outcomes.
+# 🎓 Student Performance Prediction (ANN)
+---
 
-🚀 Features
-ANN-based Analysis: Uses deep learning to predict results based on student data.
+## 📖 Project Overview
 
-Real-time Prediction: Flask-powered API for immediate feedback.
+Student Performance Prediction system ek intelligent application hai jo **Artificial Neural Network (ANN)** ka istemal karte hue student ke academic results predict karta hai.
 
-Modern UI: Clean and user-friendly interface for data input.
+Ye system student data ko analyze karke accurate predictions deta hai, jo teachers aur students dono ke liye decision-making mein madadgar hota hai.
 
-Dataset Management: Includes preprocessing scripts for training data.
+Is project mein **Flask backend** aur **modern frontend UI** use ki gayi hai taake real-time predictions asani se mil saken.
 
-🛠️ Tech Stack
-Language: Python
+---
 
-Deep Learning Framework: TensorFlow / Keras (ANN)
+## 🚀 Features
 
-Backend: Flask
+* 🧠 **ANN-based Analysis**
+  Deep Learning model use karta hai jo student data ke basis par performance predict karta hai.
 
-Frontend: HTML, CSS, JavaScript
+* ⚡ **Real-time Prediction**
+  Flask API ke through instant result milta hai.
 
-Environment: Virtualenv / Pip
+* 🎨 **Modern UI**
+  Clean aur user-friendly interface for easy data input.
 
-📁 Project Structure
-app.py: The main Flask application.
+* 📊 **Dataset Management**
+  Training data ke liye preprocessing scripts included hain.
 
-train_model.py: Script to train the Artificial Neural Network.
+---
 
-model/: Contains the saved .h5 or .pkl model file.
+## 🛠️ Tech Stack
 
-dataset/: Training and testing data files.
+* **Language:** Python
+* **Deep Learning:** TensorFlow / Keras (ANN)
+* **Backend:** Flask
+* **Frontend:** HTML, CSS, JavaScript
+* **Environment:** Virtualenv / Pip
 
-static/ & templates/: CSS, JS, and HTML files for the UI.
+---
 
-⚙️ How to Run
-Clone the repository:
+## 📂 Project Structure
 
-Bash
+student_performance_ann/
+│
+├── app.py              # Main Flask Application
+├── train_model.py      # ANN Model Training Script
+├── model/              # Saved Model (.h5 / .pkl)
+├── dataset/            # Training & Testing Data
+├── static/             # CSS & JavaScript Files
+├── templates/          # HTML Files (UI)
+└── README.md           # Documentation
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
 git clone https://github.com/CodeWithTania/student_performance_ann.git
-Install dependencies:
 
-Bash
+### 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
-Run the application:
 
-Bash
+### 3️⃣ Run Application
+
 python app.py
-Isay Add Kaise Karein?
-Aap apne VS Code terminal mein yeh commands chalaein:
 
-Ek nayi file banayein: New-Item README.md (ya manually file create karein).
 
-Upar wala text usmein paste karke save karein.
+---
 
-Ab isay GitHub par push karein:
+## 👩‍💻 Developed By
 
-Bash
-git add README.md
-git commit -m "Added professional README file"
-git push origin main
+**Tania Munawar**
+AI Engineering 
+Deep Learning Enthusiast
+
+---
+
+
